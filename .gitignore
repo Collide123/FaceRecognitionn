@@ -1,0 +1,5 @@
+data/
+lfw_home/
+__pycache__/
+*.pyc
+.env
