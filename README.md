@@ -1,4 +1,5 @@
 Project Overview
+
 This project implements a professional biometric verification pipeline designed for 1:1 Identity Mapping. It leverages deep learning architectures to convert facial features into a digital signature, allowing for highly accurate identity confirmation even in "unconstrained" environments.
 The AI Pipeline
 The system follows a modular 4-stage architecture to ensure maximum reliability:
@@ -12,6 +13,7 @@ Feature Extraction (FaceNet): The aligned face is mapped into a 128-dimensional 
 Verification (Euclidean Distance): Identity is confirmed by calculating the L2 distance between embeddings. A distance below the industrial threshold of 0.7 confirms a match.
 
 Technical Results
+
 Dataset: LFW (Labeled Faces in the Wild).
 
 Hardware Optimization: CPU-only inference using .eval() and torch.no_grad() to prevent thermal throttling on portable devices.
