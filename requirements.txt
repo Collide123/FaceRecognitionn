@@ -1,0 +1,5 @@
+torch
+facenet-pytorch
+scikit-learn
+Pillow
+numpy
